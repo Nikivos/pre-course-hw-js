@@ -3,7 +3,7 @@ switch (true) {
     case rule.length < 25 :
     console.log('Все таки нет правил без исключения');
     break;
-    case rule.lenght > 25 :
+    case rule.lenght >= 25 :
         console.log('У меня 100 пудов все получится');
         break;
     case rule.lenght === 25:
